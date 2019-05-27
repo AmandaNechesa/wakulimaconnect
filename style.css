@@ -1,0 +1,67 @@
+/* ####################################################
+:: Template Name: Essence - Fashion Ecommerce Template
+:: Author: Colorlib
+:: Author URL: https://colorlib.com
+:: Description: Essence is smart & elegant fashion e-commerce Template. It's suitable for all e-commerce business platform.
+:: Version: 1.0.0
+:: Created: April 27, 2018
+:: Last Updated: May 2, 2018
+#################################################### */
+
+/* ---------------------------------------
+##### - PLACE YOUR CUSTOM CSS HERE - #####
+--------------------------------------- */
+@-webkit-keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+    /*to { background-position: -400px 0; }*/
+    to {
+        background-position: 0px 600px;
+    }
+
+}
+
+/*#first{*/
+/*!*border-bottom: solid black;*!*/
+/*height: 50vh;*/
+/*width: 100%;*/
+/*background-color: #fbf6fa;*/
+
+/*}*/
+/*!*.shape{*!*/
+/*clip-path: circle(72.5% at 50% 27%);*/
+
+/*}*/
+#second {
+    margin-top: 10px;
+    height: 60vh;
+    width: 100%;
+}
+
+.new {
+    height: 80vh;
+    background-size: cover;
+    -webkit-animation: slide 40s alternate infinite;
+    background-repeat: repeat-y;
+}
+
+.new:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(32, 32, 32, 0.19);
+}
+
+.bgsnm:hover {
+    opacity: 0.5;
+}
+
+.head {
+    text-transform: uppercase;
+    color: red;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
